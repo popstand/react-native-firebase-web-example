@@ -1,4 +1,4 @@
-`git clone --recursive this_project`
+```git clone --recursive this_project```
 # --recursive will automatically load any submodules in the project
 cd this_project/
 npm install
