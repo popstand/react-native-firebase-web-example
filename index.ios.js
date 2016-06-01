@@ -17,10 +17,11 @@ class ReactNativeFirebaseWebExample extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <WebView style={styles.webview}
-                source={{uri: 'http://www.google.com'}}//'../App/Views/Web/...'}
-                injectedJavaScript={'alert("hello friend")'}
-              />
+        <WebView
+          style={styles.webview}
+          source={{uri: 'http://www.google.com'}}//'../App/Views/Web/...'}
+          injectedJavaScript={'alert("hello friend")'}
+          />
       </View>
     );
   }
