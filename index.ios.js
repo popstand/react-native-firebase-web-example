@@ -19,8 +19,8 @@ class ReactNativeFirebaseWebExample extends Component {
       <View style={styles.container}>
         <WebView
           style={styles.webview}
-          source={{uri: 'http://www.google.com'}}//'../App/Views/Web/...'}
-          injectedJavaScript={'alert("hello friend")'}
+          source={require('./App/Views/Web/google-firebase-web-auth-example/index.html')}
+          injectedJavaScript={'null'}
           />
       </View>
     );
